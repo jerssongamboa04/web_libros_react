@@ -1,0 +1,55 @@
+.container-book-list {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-description {
+
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: start;
+    padding: 15px;
+    color: rgb(83, 81, 81);
+}
+
+
+.book-description button {
+    background-color: orange;
+    width: 160px;
+    height: 40px;
+
+}
+
+.book-description a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.title-books {
+    margin: 10px 0px 20px 0px;
+}
+
+hr {
+    margin-top: 20px;
+    width: 90%;
+    opacity: 0.3;
+    margin-bottom: 20px;
+}
+
+.buttonBack {
+    margin-right: 1000px;
+    width: 160px;
+    height: 40px;
+    padding: 20px 5px;
+    background-color: red;
+    color: white;
+}
+
+.section-books {
+    display: flex;
+    justify-content: flex-start;
+}
